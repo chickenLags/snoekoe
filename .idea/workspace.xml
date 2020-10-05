@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="713325d9-c243-48f8-9839-b0d08659baa0" name="Default Changelist" comment="" />
+    <list default="true" id="713325d9-c243-48f8-9839-b0d08659baa0" name="Default Changelist" comment="2">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/Objects/Body.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/input.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/Model.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/Objects/Snake.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Objects/Snake.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/snoekoe.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/snoekoe.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,10 +22,15 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1dcfRxf76jzXSNPGfQzPQpRCTlT" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -29,6 +43,16 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="snoekoe.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="snoekoe.js" working-dir="$PROJECT_DIR$/js">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.snoekoe.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -43,10 +67,22 @@
       <workItem from="1592729300192" duration="11904000" />
       <workItem from="1594969288327" duration="698000" />
       <workItem from="1594974784226" duration="3582000" />
+      <workItem from="1601897393958" duration="17124000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -7,8 +7,6 @@ class Model {
     this.InitializeGrid();
     this.InitializeWalls();
     this.RandomApple();
-
-    this.grid[slang.x][slang.y] = GridObjects.SLANGEN_HOOFD;
   }
 
   InitializeWalls(){

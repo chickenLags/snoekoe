@@ -9,13 +9,11 @@ var Vakjes = 30;
 var VakjesBreedte = canvas.width / Vakjes;
 var VakjesHoogte = canvas.height / Vakjes;
 
-
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-
-
+let AANTAL_SEGMENTEN_START = 3;
 const GridObjects = {
   MUUR: 0,
   NIETS: 1,
@@ -24,33 +22,19 @@ const GridObjects = {
   SLANGEN_LICHAAM: 4
 };
 
-
-
-
-
-
-
-
-
-
-
-
 const Directie = {
   Links: 0,
   Rechts: 1,
   Boven: 2,
   Onder: 3
-}
+};
+
+let input = new Input();
 
 
-
-var i = Math.floor( Vakjes / 2);
-var slang = new Slang(i, i);
 
 
 var ctx = canvas.getContext('2d');
-
-
 
 let AppleImage = document.querySelector('#apple');
 let WallImage = document.querySelector('#wall');
@@ -106,11 +90,22 @@ function DrawBody(x, y) {
   ctx.drawImage(BodyImage, y, x, VakjesBreedte, VakjesHoogte);
 }
 
-var model = new Model()
+var model = new Model();
+var i = Math.floor( Vakjes / 2);
+var slang = new Slang(i, i);
 teken();
 
-window.setInterval( () => {
+let intval = window.setInterval( () => {
   slang.beweeg();
   model.update();
   teken();
-}, 1000);
+}, 500);
+
+function gameOver() {
+  window.clearInterval(intval);
+  ctx.fillStyle = "#111111";
+  ctx.rect(0, 0, canvas.width, canvas.height);
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
+  ctx.fill();
+
+}
